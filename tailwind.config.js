@@ -4,7 +4,8 @@ export default {
       "./index.html",
       "./src/App.jsx",
       "./src/components/Header/*.jsx",
-      "./src/pages/About/*.jsx"
+      "./src/pages/About/*.jsx",
+      "./src/pages/Gallery/*.jsx"
   ],
   theme: {
     extend: {},
