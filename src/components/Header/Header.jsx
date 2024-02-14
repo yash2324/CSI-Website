@@ -2,7 +2,7 @@
 import './Header.css';
 import linkedinLogo from "../../assets/images/linkedin-svgrepo-com.svg";
 import instagramLogo from "../../assets/images/instagram-167-svgrepo-com.svg";
-import csiLogo from "../../assets/images/CSI-logo.jpg";
+import csiLogo from "../../assets/images/CSI-logo.png";
 
 // Header component definition
 function Header() {
@@ -11,12 +11,12 @@ function Header() {
             {/* Navigation bar with flex layout and styling */}
             <nav className="w-full h-50 bg-indigo-200 flex justify-between px-4 items-center md:px-4">
                 {/* Left section containing the CSI logo */}
-                <div className="py-2">
+                <div className="">
                     {/* Link wrapping the CSI logo */}
                     <a href="/" className="flex items-center">
                         {/* CSI logo image with responsive height */}
                         <img
-                            className="h-12 md:h-[60px] w-full"
+                            className="h-20 py-1"
                             src={csiLogo}
                             alt="CSI Logo"
                         />
